@@ -22,7 +22,7 @@ fn two_sum_v2(nums: Vec<i32>, target: i32) -> Vec<i32> {
 
     for (i, x) in nums.iter().enumerate() {
         for (j, y) in nums.iter().enumerate() {
-            if x + y == target {
+            if x + y == target && i != j {
                 found = Some(vec![i as i32, j as i32]);
             }
         }
