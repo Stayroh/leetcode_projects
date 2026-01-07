@@ -1,0 +1,12 @@
+[package]
+name = "leetcode_projects"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "two_sums"
+path = "src/two_sums.rs"
+
+[[bin]]
+name = "sqrt"
+path = "src/sqrt.rs"
