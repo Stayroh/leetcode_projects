@@ -10,3 +10,7 @@ path = "src/two_sums.rs"
 [[bin]]
 name = "sqrt"
 path = "src/sqrt.rs"
+
+[[bin]]
+name = "add_two_numbers"
+path = "src/add_two_numbers.rs"
